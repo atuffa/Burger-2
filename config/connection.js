@@ -3,14 +3,14 @@
 // *********************************************************************************
 
 // Require mysql
-var mysql = require("mysql");
+let mysql = require("mysql");
 // Set up our connection information
-var connection = mysql.createConnection({
+let connection = mysql.createConnection({
     port: 3306,
     host: "localhost",
     user: "root",
-    password: "ground12",
-    database: "burgers"
+    password: "",
+    database: "burgers_db"
   });
 
   connection.connect(function(err){
