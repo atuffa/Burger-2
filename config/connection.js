@@ -5,11 +5,12 @@
 // Require mysql
 let mysql = require("mysql");
 // Set up our connection information
+
 let connection = mysql.createConnection({
     port: 3306,
     host: "localhost",
     user: "root",
-    password: "ground12",
+    password: "",
     database: "burgers_db"
   });
 
